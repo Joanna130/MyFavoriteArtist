@@ -1,54 +1,151 @@
 body{
-  text-align: center;
-  background: linear-gradient( #E1BEE7 0%,#90CAF9 100% );
-    background-repeat:no-repeat;
+    text-align: center;
+    background: linear-gradient( #E1BEE7 0%,#90CAF9 100% );
+      background-repeat:no-repeat;
+    
+  }
+  h1{
+    text-shadow:2px 2px #F8BBD0;
+     font-size:27px;
+   padding-top:90px;
+  }
+  .bio{
+   padding:18px;
+    width:150px;
+    
+  }
+  img{
+    border-radius:20%;
+    width:300px;
+  }
   
-}
-h1{
-  text-shadow:2px 2px #F8BBD0;
-   font-size:27px;
- padding-top:90px;
-}
-.bio{
- padding:18px;
-  widht:150px;
-  
-}
-img{
-  border-radius:20%;
-  width:300px;
-}
-
-.menu{
-     list-style:none;
-     font-family:New Tegomin;
-     position:absolute;
-     top:20px;
-     right:40px;
-     z-index:10;
-     cursor: pointer;
-}
-
- .links{
-        float:left;
-        color:white;
-        padding-top:8px;
-        padding-bottom:8px;
-        padding-right:12px;
-        padding-left:12px;
-        font-family:'New Tegomin'        ,cursive;            
-        font-size:20px;
+  .menu{
+       list-style:none;
+       font-family:New Tegomin;
+       position:absolute;
+       top:20px;
+       right:40px;
+       z-index:10;
+       cursor: pointer;
+  }
+    a {
+        text-decoration: none;
+        color:purple;
+        text-shadow: plum;
     }
-.links:hover{
-        background-color:highlight-font;
+
+    .article:hover{
+        color:purple;
     }
- html{
+
+    html{
         scroll-behavior: smooth;
     }
-img {
-    transition: transform .2s;
-}
 
-img:hover {
-    transform: scale(0.9);
-}
+    #writings a {
+        text-shadow: none !important;
+        text-decoration: underline !important;
+        color: blue !important;
+    }
+
+    #contact {
+        background: firebrick;
+    }
+
+    #contact iframe {
+        width: 100%;
+    }
+
+    .contact_1 h3 {
+        display: inline;
+    }
+
+    .contact_1 a {
+        color: white;
+        text-shadow: none;
+    }
+
+    .line {
+        height: 6px;
+        background-color: #000;
+        width: 70px;
+        margin: 8px auto;
+    }
+    
+    p {
+        max-width: 450px;
+        margin: 25px auto;
+        font-size: 17px;
+        line-height: 1.3;
+    }
+    
+    .parallax-inner {
+        display: table-cell;
+        position: relative;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .menu {
+        position: fixed;
+        background: white;
+        width: 100%;
+        margin-top: 0px;
+        top: 0px;
+        z-index: 10;
+        }
+        
+        .links {
+            display: inline;
+            padding-left: 33px;
+            padding-right: 25px;
+            font-family: fantasy;
+            font-size: 20px
+        }
+    
+        .links:hover {
+            font-size: 25px;
+            text-decoration: underline;
+        }
+    
+        a {
+            text-decoration: none;
+            color: purple;
+            text-shadow: 2px 2px gainsboro;
+        }
+    
+        .article:hover{
+            color:purple;
+        }
+    
+        html{
+            scroll-behavior: smooth;
+        }
+    
+        #writings a {
+            text-shadow: none !important;
+            text-decoration: underline !important;
+            color: blue !important;
+        }
+    
+        #contact {
+            background: firebrick;
+        }
+        #contact iframe {
+            width: 100%;
+        }
+    
+        .contact_1 h3 {
+            display: inline;
+        }
+    
+        .contact_1 a {
+            color: white;
+            text-shadow: none;
+        }
+        img {
+            transition: .2s;
+        }
+        
+        img:hover {
+            transform: scale(0.9);
